@@ -1,0 +1,127 @@
+body {
+	margin: 0;
+	font-size: 1.3rem;
+}
+
+.wrapper {
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+/* global message */
+.global-msg {
+	background: rgba(0, 0, 255, 0.609);
+	line-height: 32px;
+}
+.gbl-content {
+	display: flex;
+	justify-content: space-between;
+	color: whitesmoke;
+}
+
+/* header menu section */
+.nav-bar {
+	background: blue;
+	color: wheat;
+	font-size: 20px;
+}
+
+.top-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu ul {
+	list-style: none;
+	display: flex;
+}
+
+.menu ul li {
+	margin-left: 16px;
+}
+
+/* hero section */
+.hero {
+	min-height: 80vh;
+	background: url(img/bg.jpg) no-repeat center center;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-content {
+	width: 450px;
+	background: rgba(0, 0, 0, 0.74);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-align: center;
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* flex-direction: column; */
+}
+
+/* main section */
+.main {
+	display: flex;
+	margin-top: 32px;
+}
+
+.main-contain {
+	width: 66%;
+	margin-right: 1rem;
+}
+
+.side-links {
+	width: 34%;
+}
+.read-by-country {
+	background: rgb(222, 245, 193);
+	padding: 1rem;
+	border-radius: 5px;
+}
+.read-by-date {
+	margin-top: 2rem;
+	background: rgb(245, 236, 193);
+	padding: 1rem;
+	border-radius: 5px;
+}
+
+/* articles */
+article {
+	display: flex;
+	margin-top: 32px;
+}
+
+.art-img {
+	width: 400px;
+	margin-right: 20px;
+}
+
+.title {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+/* footer section */
+.footer {
+	background: #000;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	margin-top: 32px;
+	min-height: 60px;
+}
+
+/* recc section  */
+
+.recc {
+	background: rgb(222, 243, 173);
+}
