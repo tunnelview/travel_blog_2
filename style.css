@@ -127,3 +127,16 @@ article {
   margin-top: 2rem;
   padding: 20px 0;
 }
+
+/* card */
+.card-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* specific card */
+/* when we say minimum- that is the threshold */
+.card {
+  width: minmax(300px, 100);
+  min-height: 300px;
+}
