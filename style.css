@@ -139,4 +139,9 @@ article {
 .card {
   width: minmax(300px, 100);
   min-height: 300px;
+  margin: 10px 15px;
+  background: white;
+  border-radius: 5px;
+  padding-bottom: 1rem;
+  box-shadow: -5px 5px 10px 5px rgba(0, 0, 0, 0.74);
 }
