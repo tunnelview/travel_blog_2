@@ -145,3 +145,17 @@ article {
   padding-bottom: 1rem;
   box-shadow: -5px 5px 10px 5px rgba(0, 0, 0, 0.74);
 }
+
+/* card image */
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+
+.btn-card {
+  background: salmon;
+  font-size: 18px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
